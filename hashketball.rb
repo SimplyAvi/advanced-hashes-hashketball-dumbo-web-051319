@@ -1,4 +1,6 @@
 # Write your code here!
+require 'pry'
+
 def game_hash
   hash = {
     :home => {
@@ -155,7 +157,7 @@ def team_colors(team_name, game)
     end
   end
 end
-
+binding.'pry'
 p team_colors("The Ragin' Cajuns", game)
 
 # Return both teams names:
@@ -179,7 +181,7 @@ def all_team_players(team_name, game)
     end
   end
 end
-
+binding pry
 p all_team_players("The Ragin' Cajuns", game)
 
 # Return all the stats for a player:
